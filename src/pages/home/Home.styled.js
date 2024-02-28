@@ -1,6 +1,6 @@
 import styled, { keyframes } from "styled-components";
 import { PageHeader, PageHeaderStyled } from "../../components/ui";
-import { blue, pink, typeScale } from "../../utils";
+import { blue, pink, green ,yellow, typeScale } from "../../utils";
 
 export const HomeWrapper = styled.main`
   display: grid;
@@ -90,6 +90,36 @@ const textRotate2 = keyframes`
 }
 `;
 
+const textRotate3 = keyframes`
+0%{
+  transform: translate3d(0, 100%, 0) rotateX(-90deg);
+}
+40%{
+  transform: translate3d(0, 100%, 0) rotateX(-90deg);
+}
+60%{
+  transform: translate3d(0, 0%, 0) rotateX(0deg);
+}
+100%{
+  transform: translate3d(0, 0%, 0) rotateX(0deg);
+}
+`;
+
+const textRotate4 = keyframes`
+0%{
+  transform: translate3d(0, 100%, 0) rotateX(-90deg);
+}
+40%{
+  transform: translate3d(0, 100%, 0) rotateX(-90deg);
+}
+60%{
+  transform: translate3d(0, 0%, 0) rotateX(0deg);
+}
+100%{
+  transform: translate3d(0, 0%, 0) rotateX(0deg);
+}
+`;
+
 export const Position = styled(PageHeaderStyled)`
   background: unset;
   line-height: unset;
@@ -121,6 +151,28 @@ export const Position = styled(PageHeaderStyled)`
         animation: ${textRotate2} 2.4s infinite alternate;
       }
     }
+    // &.third {
+    //   color: ${green["50"]};
+    //   position: absolute;
+    //   top: 2%;
+    //   left: 0;
+    //   span {
+    //     transform-origin: bottom;
+    //     transform: translate3d(0, 100%, 0) rotateX(-90deg);
+    //     animation: ${textRotate3} 2.4s infinite alternate;
+    //   }
+    // }
+    // &.fourth {
+    //   color: ${yellow["50"]};
+    //   position: absolute;
+    //   top: 2%;
+    //   left: 0;
+    //   span {
+    //     transform-origin: bottom;
+    //     transform: translate3d(0, 100%, 0) rotateX(-90deg);
+    //     animation: ${textRotate4} 2.4s infinite alternate;
+    //   }
+    // }
   }
   @media screen and (max-width: 1204px) {
     font-size: ${typeScale.title};

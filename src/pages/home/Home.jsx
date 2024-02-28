@@ -45,9 +45,15 @@ export const Home = () => {
           <div className="text first" aria-label="Full Stack Developer">
             {produceSpans("Full Stack Developer")}
           </div>
-          <div className="text second" aria-label="UI/UX Enthusiast">
-            {produceSpans("UI/UX Enthusiast")}
+          <div className="text second" aria-label="Web3 Enthusiast">
+            {produceSpans("Web3 Enthusiast")}
           </div>
+          {/* <div className="text second" aria-label="Open Source Contributer">
+            {produceSpans("Open Source Contributer")}
+          </div>
+          <div className="text second" aria-label="Free-lancer">
+            {produceSpans("Free-lancer")}
+          </div> */}
         </Position>
       </TextContainer>
       <DogContainer>
