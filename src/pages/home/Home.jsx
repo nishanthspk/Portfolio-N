@@ -57,7 +57,7 @@ export const Home = () => {
         </Position>
       </TextContainer>
       <DogContainer>
-        <Canvas camera={{ position: [0, 2, 5] }}>
+        <Canvas camera={{ position: [5, 1 ,5] }}>
           <Dog />
         </Canvas>
       </DogContainer>

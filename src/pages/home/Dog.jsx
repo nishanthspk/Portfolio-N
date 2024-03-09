@@ -2,7 +2,7 @@ import { OrbitControls } from "@react-three/drei";
 import { useFrame, useLoader } from "@react-three/fiber";
 import { useRef } from "react";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
-import dog from "../../assets/3d/dog3.glb";
+import dog from "../../assets/3d/body.glb";
 import { useIsMobile } from "../../hooks";
 
 const Dog = () => {
@@ -14,11 +14,12 @@ const Dog = () => {
   });
   return (
     <>
-      <spotLight position={[5, 10, 7.5]} />
+      <spotLight position={[1, 10, 7.5]} />
       <spotLight position={[-3, 10, -7.5]} />
-      <pointLight color={"#f00"} position={[0, 0.6, 0]} distance="1.5" />
+      <pointLight color={"#f00"} position={[0, 0.6, 0]} distance="9" />
       {isMobile ? null : <OrbitControls enableZoom={false} enablePan={false} />}
-      <primitive object={gltf.scene} scale={isMobile ? 2 : 1.2} ref={ref} />
+      <primitive object={gltf.scene} scale={isMobile ? 7 : 4} position-y={isMobile ? -3.8 :-4.8} ref={ref} />
+      
     </>
   );
 };

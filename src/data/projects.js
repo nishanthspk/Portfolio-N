@@ -2,7 +2,7 @@ import stonks from "../assets/images/stonks.png";
 import GreenDAO from "../assets/images/greendaov2.png";
 import GreenDAO1 from "../assets/images/greendao.jpeg";
 import ZkClaims from "../assets/images/zkclaim.png";
-import Ticket3 from "../assets/images/ticket3.jpeg";
+// import Ticket3 from "../assets/images/ticket3.jpeg";
 import FundRaiz from "../assets/images/fundraiz.jpeg";
 import getv from "../assets/images/get-v.jpeg";
 
@@ -43,12 +43,12 @@ export const projects = [
     image: FundRaiz,
     link: "https://devfolio.co/projects/fundraiz-7b6e",
   },
-  {
-    title: "Ticket3 V1",
-    description: "Host events seamlessly and Fraud-free",
-    image: Ticket3,
-    link: "https://devfolio.co/projects/ticket-v-d478",
-  },
+  // {
+  //   title: "Ticket3 V1",
+  //   description: "Host events seamlessly and Fraud-free",
+  //   image: Ticket3,
+  //   link: "https://devfolio.co/projects/ticket-v-d478",
+  // },
 //   {
 //     title: "Smart Attendance App",
 //     description:
