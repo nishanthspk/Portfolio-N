@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 import {
   AiFillGithub,
   AiFillLinkedin,
@@ -18,6 +19,29 @@ import {
 
 export const Contact = () => {
   const [form, setFormState] = useState({ name: "", email: "", message: "" });
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+  
+    // Replace these values with your emailjs service ID, template ID, and user ID
+    const serviceId = "service_xzalsog";
+    const templateId = "template_mewaxwb";
+    const userId = "to26yV9jr_Ca4BXVh";
+  
+    // Reference the form element by its ID
+    const formElement = document.getElementById("contactform");
+  
+    emailjs.sendForm(serviceId, templateId, formElement, userId).then(
+      (response) => {
+        console.log("Email sent successfully:", response);
+      },
+      (error) => {
+        console.error("Email could not be sent:", error);
+      }
+    );
+  };
+  
+
   return (
     <Page header="Contact">
       <ContactWrapper>
@@ -100,9 +124,7 @@ export const Contact = () => {
               form.name.length <= 0 ||
               form.message.length <= 0
             }
-            onClick={() => {
-              document.forms["contact"].submit();
-            }}
+            onClick={(e)=>{sendEmail(e)}}
           >
             Submit
           </Button>

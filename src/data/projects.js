@@ -5,7 +5,6 @@ import ZkClaims from "../assets/images/zkclaim.png";
 // import Ticket3 from "../assets/images/ticket3.jpeg";
 import FundRaiz from "../assets/images/fundraiz.jpeg";
 import getv from "../assets/images/get-v.jpeg";
-
 export const projects = [
   {
     title: "ZkConnect",
