@@ -72,9 +72,9 @@ export const Navbar = ({ children }) => {
             <NavbarItem
               className="navbar-item"
               onClick={handelDotMovement}
-              id="experience"
+              id="certificates"
             >
-              Experiences
+              Certificates
             </NavbarItem>
           </li>
           <li className="home_navbar-item">
