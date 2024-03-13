@@ -124,7 +124,8 @@ export const Contact = () => {
               form.name.length <= 0 ||
               form.message.length <= 0
             }
-            onClick={(e)=>{sendEmail(e)}}
+            onClick={(e)=>{sendEmail(e)}
+           }
           >
             Submit
           </Button>
