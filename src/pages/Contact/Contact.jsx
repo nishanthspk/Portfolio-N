@@ -22,25 +22,26 @@ export const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-  
+
     // Replace these values with your emailjs service ID, template ID, and user ID
     const serviceId = "service_xzalsog";
-    const templateId = "template_mewaxwb";
+    const templateId = "template_wfryh2j";
     const userId = "to26yV9jr_Ca4BXVh";
-  
+
     // Reference the form element by its ID
     const formElement = document.getElementById("contactform");
-  
+
     emailjs.sendForm(serviceId, templateId, formElement, userId).then(
       (response) => {
         console.log("Email sent successfully:", response);
+        // Reset form fields after successful submission
+        setFormState({ name: "", email: "", message: "" });
       },
       (error) => {
         console.error("Email could not be sent:", error);
       }
     );
   };
-  
 
   return (
     <Page header="Contact">
@@ -124,8 +125,9 @@ export const Contact = () => {
               form.name.length <= 0 ||
               form.message.length <= 0
             }
-            onClick={(e)=>{sendEmail(e)}
-           }
+            onClick={(e) => {
+              sendEmail(e);
+            }}
           >
             Submit
           </Button>

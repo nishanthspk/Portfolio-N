@@ -1,7 +1,7 @@
 // Contact.js
 import React from "react";
 import { Page } from "../../components/Page";
-import ContactForm from "./ContactForm";
+import ContactForm from "./contactforn";
 
 const Contact = () => {
   return (
