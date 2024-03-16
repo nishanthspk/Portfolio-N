@@ -33,7 +33,7 @@ export const Contact = () => {
 
     emailjs.sendForm(serviceId, templateId, formElement, userId).then(
       (response) => {
-        console.log("Email sent successfully:", response);
+        alert("Email sent successfully:");
         // Reset form fields after successful submission
         setFormState({ name: "", email: "", message: "" });
       },
@@ -55,7 +55,7 @@ export const Contact = () => {
           <Input
             placeholder="Name"
             type="text"
-            name="name"
+            name="user_name"
             onChange={(e) => {
               setFormState((prev) => ({ ...prev, name: e.target.value }));
             }}
@@ -64,7 +64,7 @@ export const Contact = () => {
           <Input
             placeholder="Email"
             type="email"
-            name="email"
+            name="user_mail"
             onChange={(e) => {
               setFormState((prev) => ({ ...prev, email: e.target.value }));
             }}

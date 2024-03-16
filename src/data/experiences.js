@@ -1,6 +1,6 @@
-import genio from "../assets/images/genio.jpeg";
+import genio from "../assets/images/enhancement.jpeg";
 import draic from "../assets/images/image2.png";
-import rbl from "../assets/images/RBL.png";
+import rbl from "../assets/images/development.jpeg";
 import stealth from "../assets/images/design.png";
 
 

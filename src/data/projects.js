@@ -26,14 +26,14 @@ export const projects = [
     image: GreenDAO,
     link: "https://devfolio.co/projects/greendao-v-cf80",
     description:
-      "Empowering Farmers with Blockchain Technology for Secure and Efficient Agriculture Money Comes and Goes But Farmers Comes and Grows.",
+      "Empowering Farmers with Blockchain Technology for Efficient Agriculture Money .",
   },
   {
     title: "GreenDAO",
     image:  GreenDAO1,
     link: "https://devfolio.co/projects/green-dao-60b6",
     description:
-      "Building the farmers for the next generation. It's a DAO to help the farmers with Supply Chain Management, getting an identity, and applying for loans.",
+      "It's a DAO to help the farmers with Supply Chain Management, getting an identity, and applying for loans.",
   },
   {
     title: "FundRaiz",
