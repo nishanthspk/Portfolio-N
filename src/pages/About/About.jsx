@@ -9,7 +9,7 @@ import { AboutItem } from "./AboutItem";
 import Skills from "./SkillBall";
 import JEC from "../../assets/images/JEC_logo.png";
 import KVS from "../../assets/images/KVS_logo.png";
-import sos from "../../assets/images/sos.png";
+// import sos from "../../assets/images/KVS_LOGO.png";
 import { useInView } from "react-intersection-observer";
 import { useState } from "react";
 

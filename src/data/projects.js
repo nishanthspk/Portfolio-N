@@ -1,4 +1,4 @@
-import stonks from "../assets/images/stonks.png";
+// import stonks from "../assets/images/get-v.png";
 import GreenDAO from "../assets/images/greendaov2.png";
 import GreenDAO1 from "../assets/images/greendao.jpeg";
 import ZkClaims from "../assets/images/zkclaim.png";
