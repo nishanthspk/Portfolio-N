@@ -3,6 +3,7 @@ import GreenDAO from "../assets/images/greendaov2.png";
 import GreenDAO1 from "../assets/images/greendao.jpeg";
 import ZkClaims from "../assets/images/zkclaim.png";
 // import Ticket3 from "../assets/images/ticket3.jpeg";
+import CoffeeCorner from "../assets/images/Coffee.png";
 import FundRaiz from "../assets/images/fundraiz.jpeg";
 import getv from "../assets/images/get-v.jpeg";
 export const projects = [
@@ -14,20 +15,8 @@ export const projects = [
       "Unlocking Talent, Empowering Recruiters",
 
   },
-  {
-    title: "ZkClaims",
-    image: ZkClaims,
-    link: "https://devfolio.co/projects/zkclaims-290d",
-    description:
-      "Does the work of authenticating your GitHub repository for a hackathon.",
-  },
-  {
-    title: "GreenDAO - V2",
-    image: GreenDAO,
-    link: "https://devfolio.co/projects/greendao-v-cf80",
-    description:
-      "Empowering Farmers with Blockchain Technology for Efficient Agriculture Money .",
-  },
+  
+  
   {
     title: "GreenDAO",
     image:  GreenDAO1,
@@ -42,12 +31,28 @@ export const projects = [
     image: FundRaiz,
     link: "https://devfolio.co/projects/fundraiz-7b6e",
   },
-  // {
-  //   title: "Ticket3 V1",
-  //   description: "Host events seamlessly and Fraud-free",
-  //   image: Ticket3,
-  //   link: "https://devfolio.co/projects/ticket-v-d478",
-  // },
+
+  {
+    title: "ZkClaims",
+    image: ZkClaims,
+    link: "https://devfolio.co/projects/zkclaims-290d",
+    description:
+      "Does the work of authenticating your GitHub repository for a hackathon.",
+  },
+
+  {
+    title: "GreenDAO - V2",
+    image: GreenDAO,
+    link: "https://devfolio.co/projects/greendao-v-cf80",
+    description:
+      "Empowering Farmers with Blockchain Technology for Efficient Agriculture Money .",
+  },
+  {
+    title: "Coffee Corner",
+    description: "Blockchain based platform for coffee booking.",
+    image: CoffeeCorner,
+    link: "https://github.com/nishanthspk/Coffee-Corner",
+  },
 //   {
 //     title: "Smart Attendance App",
 //     description:
