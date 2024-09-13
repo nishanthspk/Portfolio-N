@@ -13,7 +13,7 @@ export const projects = [
     image: getv,
     link: "https://github.com/nishanthspk/MemeVerse",
     description:
-      "Unlocking Talent, Empowering Recruiters",
+      "Your Memes, Your NFT: Join the Digital Art Revolution",
 
   },
   
