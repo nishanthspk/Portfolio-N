@@ -17,6 +17,15 @@ export const projects = [
 
   },
   
+  
+  {
+    title: "MemeVerse",
+    image: getv,
+    link: "https://github.com/nishanthspk/MemeVerse",
+    description:
+      "Your Memes, Your NFT: Join the Digital Art Revolution",
+
+  },
 
   {
     title: "ZkConnect",
