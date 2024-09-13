@@ -1,6 +1,6 @@
-import genio from "../assets/images/enhancement.jpeg";
-import draic from "../assets/images/development.jpeg";
-import rbl from "../assets/images/development.jpeg";
+// import genio from "../assets/images/enhancement.jpeg";
+// import draic from "../assets/images/development.jpeg";
+// import rbl from "../assets/images/development.jpeg";
 import stealth from "../assets/images/design.png";
 
 
@@ -18,7 +18,7 @@ export const experiences = [
    
   },
   {
-    logo: rbl,
+    // logo: rbl,
     name: "Developing",
     // joined: "",
     // end: "",
@@ -27,7 +27,7 @@ export const experiences = [
     color: green,
   },
   {
-    logo: genio,
+    // logo: genio,
     name: "Enhansing",
     joined: "",
     end: "",

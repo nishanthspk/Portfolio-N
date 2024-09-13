@@ -4,7 +4,7 @@ import GreenDAO1 from "../assets/images/GreenDAO.jpeg";
 import ZkClaims from "../assets/images/ZkClaims.png";
 // import Ticket3 from "../assets/images/ticket3.jpeg";
 import CoffeeCorner from "../assets/images/CoffeeCorner.png";
-import FundRaiz from "../assets/images/fundraiz.jpeg";
+import FundRaiz from "../assets/images/Fundraiz.jpeg";
 import getv from "../assets/images/zkconnect.jpeg";
 export const projects = [
 
