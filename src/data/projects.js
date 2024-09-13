@@ -21,7 +21,7 @@ export const projects = [
   {
     title: "ArcVapi.",
     image: getv,
-    link: "https://github.com/nishanthspk/MemeVerse",
+    link: "https://github.com/nishanthspk/ARCVAPI",
     description:
       "Your Memes, Your NFT: Join the Digital Art Revolution",
 
