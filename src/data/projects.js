@@ -1,6 +1,6 @@
 // import stonks from "../assets/images/get-v.png";
-import GreenDAO from "../assets/images/greendaov2.png";
-import GreenDAO1 from "../assets/images/greendao.jpeg";
+import GreenDAO from "../assets/images/GreenDAO.png";
+import GreenDAO1 from "../assets/images/GreenDao.jpeg";
 import ZkClaims from "../assets/images/zkclaim.png";
 // import Ticket3 from "../assets/images/ticket3.jpeg";
 import CoffeeCorner from "../assets/images/CoffeeCorner.png";
@@ -8,23 +8,6 @@ import FundRaiz from "../assets/images/fundraiz.jpeg";
 import getv from "../assets/images/zkconnect.jpeg";
 export const projects = [
 
-  {
-    title: "MemeVerse",
-    image: getv,
-    link: "https://github.com/nishanthspk/MemeVerse",
-    description:
-      "Your Memes, Your NFT: Join the Digital Art Revolution",
-
-  },
-  
-  {
-    title: "ZkConnect",
-    image: getv,
-    link: "https://devfolio.co/projects/zkconnect-27ac",
-    description:
-      "Unlocking Talent, Empowering Recruiters",
-
-  },
 
   {
     title: "ZkConnect",
