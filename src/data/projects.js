@@ -11,7 +11,7 @@ export const projects = [
 
   {
     title: "MemeVerse",
-    image: getv,
+    image: MemeVerse,
     link: "https://github.com/nishanthspk/MemeVerse",
     description:
       "Your Memes, Your NFT: Join the Digital Art Revolution",
