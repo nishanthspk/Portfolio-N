@@ -23,7 +23,7 @@ export const projects = [
     image: getv,
     link: "https://github.com/nishanthspk/ARCVAPI",
     description:
-      "We offer reliable freight transportation, secure warehousing, efficient supply chain management, and tailored logistics services to meet your unique needs.",
+      "Delivering Your Promise, Every Mile , Every Time",
 
   },
 
