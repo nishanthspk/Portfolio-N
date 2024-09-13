@@ -20,7 +20,7 @@ export const projects = [
   
   {
     title: "ArcVapi.",
-    image: getv,
+    image: ArcVapi,
     link: "https://github.com/nishanthspk/ARCVAPI",
     description:
       "Delivering Your Promise, Every Mile , Every Time",
