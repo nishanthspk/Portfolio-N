@@ -7,6 +7,25 @@ import CoffeeCorner from "../assets/images/Coffee.png";
 import FundRaiz from "../assets/images/fundraiz.jpeg";
 import getv from "../assets/images/get-v.jpeg";
 export const projects = [
+
+  {
+    title: "MemeVerse",
+    image: getv,
+    link: "https://github.com/nishanthspk/MemeVerse",
+    description:
+      "Your Memes, Your NFT: Join the Digital Art Revolution",
+
+  },
+  
+  {
+    title: "ZkConnect",
+    image: getv,
+    link: "https://devfolio.co/projects/zkconnect-27ac",
+    description:
+      "Unlocking Talent, Empowering Recruiters",
+
+  },
+
   {
     title: "ZkConnect",
     image: getv,
