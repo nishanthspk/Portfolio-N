@@ -8,6 +8,15 @@ import FundRaiz from "../assets/images/Fundraiz.jpeg";
 import getv from "../assets/images/zkconnect.jpeg";
 export const projects = [
 
+  {
+    title: "ZkConnect",
+    image: getv,
+    link: "https://devfolio.co/projects/zkconnect-27ac",
+    description:
+      "Unlocking Talent, Empowering Recruiters",
+
+  },
+  
 
   {
     title: "ZkConnect",
