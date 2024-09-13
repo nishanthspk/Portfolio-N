@@ -19,7 +19,7 @@ export const projects = [
   
   
   {
-    title: "MemeVerse",
+    title: "ArcVapi.",
     image: getv,
     link: "https://github.com/nishanthspk/MemeVerse",
     description:
