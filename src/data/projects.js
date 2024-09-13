@@ -2,7 +2,7 @@
 import GreenDAO from "../assets/images/GreenDAOV2.jpeg";
 import GreenDAO1 from "../assets/images/GreenDAO.jpeg";
 import ZkClaims from "../assets/images/ZkClaims.png";
-// import Ticket3 from "../assets/images/ticket3.jpeg";
+import ArcVapi from "../assets/images/ArcVapi.png";
 import CoffeeCorner from "../assets/images/CoffeeCorner.png";
 import FundRaiz from "../assets/images/Fundraiz.jpeg";
 import getv from "../assets/images/zkconnect.jpeg";
