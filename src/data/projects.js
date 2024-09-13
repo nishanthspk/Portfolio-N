@@ -11,7 +11,7 @@ export const projects = [
   {
     title: "MemeVerse",
     image: getv,
-    link: "https://devfolio.co/projects/zkconnect-27ac",
+    link: "https://github.com/nishanthspk/MemeVerse",
     description:
       "Unlocking Talent, Empowering Recruiters",
 
