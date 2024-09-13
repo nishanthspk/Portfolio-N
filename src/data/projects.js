@@ -3,6 +3,7 @@ import GreenDAO from "../assets/images/GreenDAOV2.jpeg";
 import GreenDAO1 from "../assets/images/GreenDAO.jpeg";
 import ZkClaims from "../assets/images/ZkClaims.png";
 import ArcVapi from "../assets/images/ArcVapi.png";
+import MemeVerse from "../assets/images/MemeVerse.png";
 import CoffeeCorner from "../assets/images/CoffeeCorner.png";
 import FundRaiz from "../assets/images/Fundraiz.jpeg";
 import getv from "../assets/images/zkconnect.jpeg";
