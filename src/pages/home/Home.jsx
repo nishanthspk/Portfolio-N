@@ -43,7 +43,7 @@ export const Home = () => {
         <Name>Nishanth SPK</Name>
         <Position>
           <div className="text first" aria-label="Full Stack Developer">
-            {produceSpans("Full Stack Developer")}
+            {produceSpans("Front-end Developer")}
           </div>
           <div className="text second" aria-label="Web3 Enthusiast">
             {produceSpans("Web3 Enthusiast")}
